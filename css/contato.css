@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+*{
+    list-style: none;
+    padding: 0px;
+    margin: 0 auto;
+    font-size: 1.2rem;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.logotipo{
+    height: 140px;
+    margin-bottom: 1px;
+    background-image: url(../assets/himage.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-color:whitesmoke;
+}   
+#logo{
+    margin: 10px 0 10px 65px;
+    height: 350px;
+}
+.menunav{
+    margin-bottom: 1px;
+    background-color: rgb(65, 146, 146);
+    display: flex;
+}
+.menunav a{
+    display: inline-block;
+    padding: 20px 50px;
+    text-decoration: none;
+    color: floralwhite;
+    border-radius: 10px;
+}
+#menubotao:hover{
+    background:seashell;
+    color: rgb(65, 146, 146);
+    box-shadow: inset 0 0 0 2px rgb(65, 146, 146) ;
+    font-weight: bold;
+}
+main{
+    height: 610px;
+    color: rgb(0, 0, 0);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.5rem;
+    background-color: grey;
+}
+.bodycontent{
+    background-color:snow;
+    width: 80%;
+    height: 100%;
+}
+#intro{
+    color: rgb(65, 146, 146);
+    text-align: center;
+    padding-top: 70px;
+}
+.contacts{
+}
+.whatsimg{
+    position:absolute;
+    left:45%;
+    top:400px;
+    z-index:1;
+}
+#contactnum{
+    position:absolute;
+    left:44.5%;
+    top:525px;
+    z-index:1;
+    font-weight: bold;
+}
+.mailimg{
+    position:absolute; 
+    left:45%; 
+    top:600px; 
+    z-index: 2;
+}
+#mailmsg{
+    position:absolute;
+    left:41%;
+    top:705px;
+    z-index:1;
+    font-size: medium;
+}
+footer{
+    background-color: rgb(68, 67, 67);
+    color: honeydew;
+    padding: 10px;
+}
+footer p{
+    display: block;
+    margin-left: 6%;
+    margin-bottom: 5px;
+    padding-top: 3px;
+    font-size:medium;
+}
+#wicon{
+    height: 15px;
+}
+.qsnbutton{
+
+}
+#qsn{
+    text-align: center;
+    margin-left: 6%;
+    
+}
+a{
+    color: rgb(65, 146, 146);
+    text-decoration: none;
+}
+.contactlist{
+    width: 100%;
+    background-color: rgb(221, 218, 218);
+}
+.contactigm{
+    display: inline-block;
+    height: 15px;
+    padding-left: 399px;
+}
